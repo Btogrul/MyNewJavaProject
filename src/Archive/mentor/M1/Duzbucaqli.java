@@ -1,8 +1,8 @@
-package Archive.M1;
+package Archive.mentor.M1;
 
 import java.util.Scanner;
 
-public class duzbucaqli {
+public class Duzbucaqli {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("düzbücaqlının A tərəfini daxil edin: ");

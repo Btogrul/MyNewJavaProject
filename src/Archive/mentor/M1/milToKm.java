@@ -1,4 +1,4 @@
-package Archive.M1;
+package Archive.mentor.M1;
 
 import java.util.Scanner;
 

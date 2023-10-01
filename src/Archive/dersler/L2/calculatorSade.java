@@ -1,4 +1,4 @@
-package Archive.L2;
+package Archive.dersler.L2;
 
 import java.util.Scanner;
 
