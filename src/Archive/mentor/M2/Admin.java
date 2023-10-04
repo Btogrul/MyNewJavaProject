@@ -7,19 +7,19 @@ public class Admin {
         Scanner sc = new Scanner(System.in);
 
 
-        System.out.println("Zehmet olmasa logini daxil edin : " );
+        System.out.println("Zehmet olmasa logini daxil edin : ");
         String log = sc.nextLine();
 
 
-        System.out.println("Zehmet olmasa parolu daxil edin : " );
+        System.out.println("Zehmet olmasa parolu daxil edin : ");
         int pass = sc.nextInt();
 
 
-        boolean logIn =  log.equals("admin") && pass == 12345;
+        boolean logIn = log.equals("admin") && pass == 12345;
 
-        if(logIn){
+        if (logIn) {
             System.out.println("xosh geldiniz!");
-        }else{
+        } else {
             System.out.println(" yanlish pass ve yaxud login ");
         }
 

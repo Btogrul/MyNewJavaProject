@@ -1,3 +1,5 @@
+package Archive.dersler.L4;
+
 import java.util.Scanner;
 
 public class ExamScore {
@@ -9,7 +11,13 @@ public class ExamScore {
 
 
 
-        String examGrade = 100 >= studentGrade && studentGrade >= 91  ? "A" : 90 >= studentGrade && studentGrade >= 81 ? "B" : 80 >= studentGrade && studentGrade >= 71 ? "C" : 70 >= studentGrade && studentGrade >= 61 ? "D" : 60 >= studentGrade   ? "F" : "" ;
+        String examGrade =
+                100 >= studentGrade && studentGrade >= 91
+                        ? "A" : 90 >= studentGrade && studentGrade >= 81
+                        ? "B" : 80 >= studentGrade && studentGrade >= 71
+                        ? "C" : 70 >= studentGrade && studentGrade >= 61
+                        ? "D" : 60 >= studentGrade
+                        ? "F" : "" ;
 
 
         switch (examGrade){

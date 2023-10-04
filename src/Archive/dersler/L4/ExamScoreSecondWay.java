@@ -1,3 +1,5 @@
+package Archive.dersler.L4;
+
 import java.util.Scanner;
 
 public class ExamScoreSecondWay {
@@ -16,7 +18,7 @@ public class ExamScoreSecondWay {
         }else if (70>=studentGrade && studentGrade >= 61) {
             System.out.println("Təbriklər! Siz D qazandınız !");
         }else if (60>=studentGrade) {
-            System.out.println("Təəssüflər! Siz F qazandınız !");;
+            System.out.println("Təəssüflər! Siz F qazandınız !");
         }else{
             System.out.println("Sizin balınız imtahan balının limitlərini aşıb!");
         }
