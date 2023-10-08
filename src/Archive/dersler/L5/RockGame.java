@@ -1,3 +1,5 @@
+package Archive.dersler.L5;
+
 import java.util.Scanner;
 
 public class RockGame {
@@ -11,6 +13,8 @@ public class RockGame {
             boolean play;
             System.out.println("Oyuna başlayaq ? (he/yes/hə)");
             String userAnswer = sc.nextLine();
+
+
             if (userAnswer.equals("he") || userAnswer.equals("yes") || userAnswer.equals("hə")) {
                 play = true;
             } else {
@@ -22,8 +26,13 @@ public class RockGame {
 
             for (int i= 0; i<3; i++){
                 if (play) {
+
+
                     int randomNumber = (int) (Math.random() * 3);
                     // System.out.println(randomNumber);
+
+
+
                     switch (randomNumber) {
                         case 0:
                             computerGuess = "daş";
@@ -38,8 +47,10 @@ public class RockGame {
                     System.out.println("Zəhmət olmasa bir seçim edin: (daş,  qayçı, kağız)");
                     String userGuess = sc.nextLine();
 
+
+
                     if (userGuess.equals(computerGuess)) {
-                        System.out.println("Bərabərsiz!");
+                        System.out.println("Bərabərsiz! Rəqibiniz də " + computerGuess + "seçmişdir!");
                     } else if ((userGuess.equals("daş") && computerGuess.equals("qayçı"))
                             || (userGuess.equals("kağız") && computerGuess.equals("daş"))
                             || (userGuess.equals("qayçı") && computerGuess.equals("kağız"))) {
@@ -58,8 +69,6 @@ public class RockGame {
                     System.out.println("hesab Sizin " + userScore + ". Rəqibin " + compScore + " xalı var!" );
                 }
             }
-
-
 
             System.out.println("Yeniden başla ?  (he/hə/yox)");
             String restartAnswer = sc.nextLine();

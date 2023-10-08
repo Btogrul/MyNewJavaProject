@@ -1,3 +1,4 @@
+package Archive.mentor.M3;
 
 import java.util.Scanner;
 
@@ -30,7 +31,12 @@ public class SwitchCalc {
                     System.out.println("Nəticə " + (firstNumber*secondNumber));
                     break;
                 case "bölmə":
-                    System.out.println("Nəticə " + (firstNumber/secondNumber));
+                    if(secondNumber!=0 ){
+                        System.out.println("Nəticə " + (firstNumber/secondNumber));
+
+                    }else {
+                        System.out.println("0 -ra bölmək olmaz");
+                    }
                     break;
                 case "çıxma":
                     System.out.println("Nəticə " + (firstNumber-secondNumber));

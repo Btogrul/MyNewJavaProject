@@ -1,3 +1,5 @@
+package Archive.mentor.M3;
+
 import java.util.Scanner;
 
 public class SwithcCalc_way2 {
