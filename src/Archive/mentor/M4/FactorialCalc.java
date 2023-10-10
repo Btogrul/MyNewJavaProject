@@ -1,3 +1,5 @@
+package Archive.mentor.M4;
+
 import java.util.Scanner;
 
 public class FactorialCalc {

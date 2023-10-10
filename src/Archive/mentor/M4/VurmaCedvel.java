@@ -1,3 +1,5 @@
+package Archive.mentor.M4;
+
 import java.util.Scanner;
 
 public class VurmaCedvel {
@@ -7,6 +9,9 @@ public class VurmaCedvel {
 
         int userInput = sc.nextInt();
         int result;
+
+
+
         if (userInput != 0 ){
 
             for (int i = 1; i <= 10 ; i++){
