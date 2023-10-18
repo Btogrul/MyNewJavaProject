@@ -1,3 +1,5 @@
+package Archive.mentor.M6;
+
 import java.util.Scanner;
 
 public class LibraryTask {

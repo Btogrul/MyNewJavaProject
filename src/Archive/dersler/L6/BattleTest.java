@@ -1,3 +1,5 @@
+package Archive.dersler.L6;
+
 import java.util.Scanner;
 
 public class BattleTest {

@@ -1,3 +1,5 @@
+package Archive.mentor.M6;
+
 public class DiagonalAEI {
     public static void main(String[] args) {
 
@@ -9,7 +11,10 @@ public class DiagonalAEI {
 
 
 
-        System.out.println();
+        int row = 2;
+        int column = 2;
+
+        System.out.println(myArr[row-1][column-1]);
 
         for (int i = 0; i < myArr.length; i++) {
 
