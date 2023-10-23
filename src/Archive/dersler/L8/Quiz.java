@@ -1,3 +1,7 @@
+package Archive.dersler.L8;
+
+import Archive.dersler.L8.Questions;
+
 import java.util.Scanner;
 
 public class Quiz {

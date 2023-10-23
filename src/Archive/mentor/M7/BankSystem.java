@@ -1,3 +1,5 @@
+package Archive.mentor.M7;
+
 import java.util.Scanner;
 
 public class BankSystem {

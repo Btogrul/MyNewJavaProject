@@ -1,3 +1,5 @@
+package Archive.mentor.M7;
+
 public class Car {
     String make;
     String model;

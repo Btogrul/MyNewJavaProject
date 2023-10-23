@@ -1,3 +1,7 @@
+package Archive.mentor.M7;
+
+import Archive.mentor.M7.Car;
+
 import java.util.Scanner;
 
 public class CarMain {
