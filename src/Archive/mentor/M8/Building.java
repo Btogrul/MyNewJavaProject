@@ -70,3 +70,7 @@ public class Building {
         this.mortgage = mortgage;
     }
 }
+
+//constructor ilk
+//digerleri ortada (getter setter ve s)
+// to string axirda gelir

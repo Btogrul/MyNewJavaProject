@@ -72,6 +72,8 @@ public class Library {
             System.out.println(book_1);
             System.out.println("--------------");
 
+/*           System.out.println(book.getAuthor());
+           System.out.println(book.getTitle() + book.getPublicationYear()); */
 
 
         }else {
