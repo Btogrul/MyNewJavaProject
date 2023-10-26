@@ -10,6 +10,9 @@ public class Library {
 //        ----------------------------------
         System.out.println("Yeni kitab elave etmek isteyirsiz ?  yes/no");
         String user_input =sc.nextLine();
+
+
+
         if (user_input.equals("yes")){
 
             System.out.print("Elave olunacaq kitablarin sayini qeyd edin: ");
@@ -34,6 +37,8 @@ public class Library {
                     author_new_list[i].setName(sc.nextLine());
                     System.out.print("Yazıçının doğum ilini daxil edin: ");
                     author_new_list[i].setBirthYear(sc.nextInt());
+
+
                     for (int j = 0; j < total_books; j++) {
                         sc.nextLine();
                         new_books[j] = new Book();
@@ -60,6 +65,10 @@ public class Library {
             }else{
                 System.out.println("Qeyd xetasi");
             }
+
+
+
+
         } else if (user_input.equals("no")) {
             Author author = new Author("J.K. Rowling", 1965);
             Book book = new Book(author, "Harry Potter and the Philosopher's Stone", 1997);

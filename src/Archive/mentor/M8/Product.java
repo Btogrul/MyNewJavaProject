@@ -1,3 +1,5 @@
+package Archive.mentor.M8;
+
 public class Product {
     int id;
     String name;
@@ -56,7 +58,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
+        return "Archive.mentor.M8.Product{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", price=" + price +

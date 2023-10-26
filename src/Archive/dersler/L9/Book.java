@@ -5,16 +5,6 @@ public class Book {
     String title;
     int publicationYear;
 
-
-    @Override
-    public String toString() {
-        return "Book{" +
-                "author=" + author +
-                ", title='" + title + '\'' +
-                ", publicationYear=" + publicationYear +
-                '}';
-    }
-
     public Book(Author author, String title, int publicationYear) {
         this.author = author;
         this.title = title;
@@ -48,6 +38,19 @@ public class Book {
     public int getPublicationYear() {
         return publicationYear;
     }
+
+
+
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "author=" + author +
+                ", title='" + title + '\'' +
+                ", publicationYear=" + publicationYear +
+                '}';
+    }
+
 
 
 }

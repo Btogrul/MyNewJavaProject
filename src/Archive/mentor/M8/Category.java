@@ -1,3 +1,5 @@
+package Archive.mentor.M8;
+
 import java.util.Arrays;
 
 public class Category {
@@ -8,7 +10,7 @@ public class Category {
     Product[] product;
 
 
-    public Category(int id, String categoryName, String description, Product [] product) {
+    public Category(int id, String categoryName, String description, Product[] product) {
         this.id = id;
         this.categoryName = categoryName;
         this.description = description;
@@ -27,7 +29,7 @@ public class Category {
         this.description = description;
     }
 
-    public void setProduct(Product [] product) {
+    public void setProduct(Product[] product) {
         this.product = product;
     }
 
@@ -43,13 +45,13 @@ public class Category {
         return description;
     }
 
-    public Product [] getProduct() {
+    public Product[] getProduct() {
         return product;
     }
 
     @Override
     public String toString() {
-        return "Category{" +
+        return "Archive.mentor.M8.Category{" +
                 "id=" + id +
                 ", categoryName='" + categoryName + '\'' +
                 ", description='" + description + '\'' +

@@ -4,13 +4,6 @@ public class Author {
     String name;
     int birthYear;
 
-    @Override
-    public String toString() {
-        return "Yazıçı{" +
-                "Adı:'" + name + '\'' +
-                ", doğum tarixi: " + birthYear +
-                '}';
-    }
 
 
     public Author(String name, int birthYear) {
@@ -28,4 +21,16 @@ public class Author {
     public void setBirthYear(int birthYear) {
         this.birthYear = birthYear;
     }
+
+
+
+
+    @Override
+    public String toString() {
+        return "Yazıçı{" +
+                "Adı:'" + name + '\'' +
+                ", doğum tarixi: " + birthYear +
+                '}';
+    }
+
 }
