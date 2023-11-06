@@ -13,6 +13,8 @@ public class StringManipulation {
 
         String[] words = myText.split(" ");
         System.out.println("------");
+
+
         for (String word : words) {
             System.out.println(word);
         }
