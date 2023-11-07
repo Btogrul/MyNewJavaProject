@@ -3,11 +3,10 @@ package Archive.dersler.L12;
 import java.util.Objects;
 
 public class Book {
-    private int id;
+    private int id, publicationYear;
 
-    private String author;
-    private String title;
-    private int publicationYear;
+    private String author, title;
+
 
 
     public Book() {
