@@ -1,16 +1,14 @@
 package Archive.dersler.Month_3;
 
-public class another_way {
-
-    void even(){
-        for (int i = 1; i <10000 ; i+=2) {
-            System.out.println("even " + i);
+public class another_way extends Thread {
+    @Override
+    public void run() {
+        for (int i = 0; i < 10000; i++) {
+            if (i % 2 == 0) {
+                System.out.println("even " + i);
+            } else {
+                System.out.println("odd " + i);
+            }
         }
     }
-    void odd(){
-        for (int i = 2; i <=10000 ; i+=2) {
-            System.out.println("odd " + i);
-        }
-    }
-
 }

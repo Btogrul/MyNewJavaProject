@@ -9,7 +9,8 @@ public class Main extends java.lang.Thread {
 //        t_odd.start();
 
 
-
+        another_way t_new_way = new another_way();
+        t_new_way.start();
 
     }
 
