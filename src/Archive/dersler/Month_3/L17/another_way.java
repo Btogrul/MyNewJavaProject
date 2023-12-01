@@ -1,9 +1,9 @@
-package Archive.dersler.Month_3;
+package Archive.dersler.Month_3.L17;
 
 public class another_way extends Thread {
     @Override
     public void run() {
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 1; i < 10000; i++) {
             if (i % 2 == 0) {
                 System.out.println("even " + i);
             } else {
