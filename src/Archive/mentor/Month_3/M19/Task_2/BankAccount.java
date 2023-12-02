@@ -17,7 +17,7 @@ public class BankAccount {
 
 
 
-    public void withdraw(double amount) throws InsufficientBalanceException {
+    public synchronized void withdraw(double amount) throws InsufficientBalanceException {
 
         if (amount> this.balance){
             throw new InsufficientBalanceException("Balansinda kifayet qeder mebleq yoxdur");
@@ -27,6 +27,7 @@ public class BankAccount {
 
         }else {
             balance -= amount;
+            System.out.println(" balansdan cixilan mebleq " + amount);
             System.out.println("balansin " + this.balance);
             System.out.println("istifadeci " + this.accountOwner);
 

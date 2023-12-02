@@ -10,7 +10,6 @@ public class Main {
         trh_1.start();
         trh_2.start();
 
-
         try{
             trh_1.join();
             trh_2.join();
