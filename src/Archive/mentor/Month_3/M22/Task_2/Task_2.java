@@ -22,7 +22,7 @@ public class Task_2 {
 
         System.out.println(num.contains(4) ? "found" : "not found");
 
-        num.remove(Integer.valueOf(3));
+        num.remove(2);
 
 
         num.add(0, 0);
