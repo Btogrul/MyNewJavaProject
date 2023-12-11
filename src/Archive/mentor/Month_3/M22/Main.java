@@ -12,12 +12,12 @@ public class Main {
         boolean loop = true;
 
         while (loop) {
-            System.out.println(" Playlist Manager");
-            System.out.println("1. Add a song");
-            System.out.println("2. Remove a song");
-            System.out.println("3. Display playlist");
-            System.out.println("4. Exit");
-            System.out.print("Enter your choice: ");
+            System.out.println(" Playlist :");
+            System.out.println("1. əlavə et : ");
+            System.out.println("2. sil : ");
+            System.out.println("3. göstər  :");
+            System.out.println("4. çıxış et ");
+            System.out.print(" seçim edin : ");
 
             int choice = scanner.nextInt();
             scanner.nextLine();
