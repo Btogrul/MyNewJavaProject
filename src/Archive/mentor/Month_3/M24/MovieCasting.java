@@ -1,4 +1,4 @@
-package Archive.mentor.Month_4;
+package Archive.mentor.Month_3.M24;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -14,7 +14,7 @@ public class MovieCasting {
 
         ArrayList<Role> roles = new ArrayList<>();
         roles.add(new Role("survivor", 20, 40));
-        roles.add(new Role("miller", 22, 30));
+        roles.add(new Role("killer", 22, 30));
 
 
         Collections.sort(stars, Comparator.comparingInt(s -> s.actingSkill));
@@ -23,10 +23,14 @@ public class MovieCasting {
         Collections.sort(roles, Comparator.comparingInt(r -> r.minAge));
 
 
-        for (Role role : roles) {
-            System.out.println(role.name + " <- roluna uygun olan siralama ve minimal yash " + role.minAge + " ve max yash " + role.maxAge  );
-            for (Actor actor : stars) {
-                System.out.println(actor.name);
+        for (Actor actor: stars) {
+            System.out.println(actor.name);
+            for (Role role  : roles) {
+
+                if (actor.age >= role.minAge&& actor.age <= role.maxAge){
+                    System.out.println(role.name + " <- roluna uygun olan siralama ve minimal yash " + role.minAge + " ve max yash " + role.maxAge  );
+
+                }
             }
             System.out.println("==========================");
 
