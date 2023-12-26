@@ -18,10 +18,10 @@ public class Lambda {
         List<Double> my_list = new ArrayList<>();
         my_list.add(2.01);
         my_list.add(3.04);
-        my_list.add(2.2);
+        my_list.add(4.2);
 
-        List<Long> intList = new ArrayList<>();
-        my_list.forEach(d -> intList.add(Math.round(d)));
+        List<Integer> intList = new ArrayList<>();
+        my_list.forEach(d -> intList.add((int) Math.round(d)));
 
         System.out.println("int list " + intList);
         System.out.println("doubles " + my_list);
