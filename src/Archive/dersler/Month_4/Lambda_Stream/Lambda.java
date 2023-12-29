@@ -6,7 +6,10 @@ import java.util.List;
 public class Lambda {
 
     public static void main(String[] args) {
+
+
         TestInterface check =  (num) -> num > 0;
+
         int x = 1;
         int y = -1;
         System.out.println("x  " + check.operation(x));
