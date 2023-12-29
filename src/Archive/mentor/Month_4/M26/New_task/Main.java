@@ -21,8 +21,7 @@ public class Main {
         System.out.println();
         System.out.println("===============");
         System.out.println("Axtardiqiniz oyuncunun adi ");
-        String admin_input = sc.nextLine();
-        String search_user = admin_input;
+        String search_user = sc.nextLine();
         System.out.println(players_list.containsUserName(search_user)
                 ? search_user + " adında var"
                 : search_user + " adında yoxdur");
