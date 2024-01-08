@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         ProductCatalog productCatalog = new ProductCatalog();
 
-        // Adding products to the catalog
         Product p_1 = new Product(1, "x", 43, 2);
         Product p_2 = new Product(2, "y", 22, 3);
 
