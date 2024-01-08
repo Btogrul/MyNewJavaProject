@@ -19,6 +19,7 @@ public class Main {
 
         players_list.removeUser("X");
         System.out.println();
+        
         System.out.println("===============");
         System.out.println("Axtardiqiniz oyuncunun adi ");
         String search_user = sc.nextLine();
