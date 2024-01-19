@@ -13,7 +13,7 @@ public class Main {
 
 
 
-
+            database.addStudent(1, "A", 17);
 
             System.out.println(database.getStudentName(1) );
             System.out.println(database.getStudentName(2) );
